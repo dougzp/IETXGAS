@@ -21,6 +21,8 @@
 		A54DD64615A0F7EF004B7697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54DD62415A0F7EF004B7697 /* Foundation.framework */; };
 		A54DD64E15A0F7EF004B7697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A54DD64C15A0F7EF004B7697 /* InfoPlist.strings */; };
 		A54DD65115A0F7EF004B7697 /* IETXGASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DD65015A0F7EF004B7697 /* IETXGASTests.m */; };
+		A54DD65B15A0F811004B7697 /* fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = A54DD65A15A0F811004B7697 /* fundo.png */; };
+		A54DD65E15A0F89C004B7697 /* DSFEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DD65D15A0F89C004B7697 /* DSFEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,25 @@
 		A54DD62215A0F7EF004B7697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A54DD62415A0F7EF004B7697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A54DD62615A0F7EF004B7697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A54DD62A15A0F7EF004B7697 /* IETXGAS-Info.plist */ = {isa = PBXFileReference; path = "IETXGAS-Info.plist"; sourceTree = "<group>"; };
+		A54DD62A15A0F7EF004B7697 /* IETXGAS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IETXGAS-Info.plist"; sourceTree = "<group>"; };
 		A54DD62C15A0F7EF004B7697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A54DD62E15A0F7EF004B7697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A54DD63015A0F7EF004B7697 /* IETXGAS-Prefix.pch */ = {isa = PBXFileReference; path = "IETXGAS-Prefix.pch"; sourceTree = "<group>"; };
-		A54DD63115A0F7EF004B7697 /* DSFAppDelegate.h */ = {isa = PBXFileReference; path = DSFAppDelegate.h; sourceTree = "<group>"; };
+		A54DD63015A0F7EF004B7697 /* IETXGAS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IETXGAS-Prefix.pch"; sourceTree = "<group>"; };
+		A54DD63115A0F7EF004B7697 /* DSFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFAppDelegate.h; sourceTree = "<group>"; };
 		A54DD63215A0F7EF004B7697 /* DSFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSFAppDelegate.m; sourceTree = "<group>"; };
 		A54DD63515A0F7EF004B7697 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A54DD63815A0F7EF004B7697 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A54DD63A15A0F7EF004B7697 /* DSFViewController.h */ = {isa = PBXFileReference; path = DSFViewController.h; sourceTree = "<group>"; };
+		A54DD63A15A0F7EF004B7697 /* DSFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFViewController.h; sourceTree = "<group>"; };
 		A54DD63B15A0F7EF004B7697 /* DSFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSFViewController.m; sourceTree = "<group>"; };
 		A54DD64215A0F7EF004B7697 /* IETXGASTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IETXGASTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54DD64315A0F7EF004B7697 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A54DD64B15A0F7EF004B7697 /* IETXGASTests-Info.plist */ = {isa = PBXFileReference; path = "IETXGASTests-Info.plist"; sourceTree = "<group>"; };
+		A54DD64B15A0F7EF004B7697 /* IETXGASTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IETXGASTests-Info.plist"; sourceTree = "<group>"; };
 		A54DD64D15A0F7EF004B7697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A54DD64F15A0F7EF004B7697 /* IETXGASTests.h */ = {isa = PBXFileReference; path = IETXGASTests.h; sourceTree = "<group>"; };
+		A54DD64F15A0F7EF004B7697 /* IETXGASTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IETXGASTests.h; sourceTree = "<group>"; };
 		A54DD65015A0F7EF004B7697 /* IETXGASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IETXGASTests.m; sourceTree = "<group>"; };
+		A54DD65A15A0F811004B7697 /* fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundo.png; sourceTree = "<group>"; };
+		A54DD65C15A0F89C004B7697 /* DSFEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSFEngine.h; sourceTree = "<group>"; };
+		A54DD65D15A0F89C004B7697 /* DSFEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSFEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		A54DD61315A0F7EF004B7697 = {
 			isa = PBXGroup;
 			children = (
+				A54DD65A15A0F811004B7697 /* fundo.png */,
 				A54DD62815A0F7EF004B7697 /* IETXGAS */,
 				A54DD64915A0F7EF004B7697 /* IETXGASTests */,
 				A54DD62115A0F7EF004B7697 /* Frameworks */,
@@ -120,6 +126,8 @@
 				A54DD63A15A0F7EF004B7697 /* DSFViewController.h */,
 				A54DD63B15A0F7EF004B7697 /* DSFViewController.m */,
 				A54DD62915A0F7EF004B7697 /* Supporting Files */,
+				A54DD65C15A0F89C004B7697 /* DSFEngine.h */,
+				A54DD65D15A0F89C004B7697 /* DSFEngine.m */,
 			);
 			path = IETXGAS;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 				A54DD62D15A0F7EF004B7697 /* InfoPlist.strings in Resources */,
 				A54DD63615A0F7EF004B7697 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A54DD63915A0F7EF004B7697 /* MainStoryboard_iPad.storyboard in Resources */,
+				A54DD65B15A0F811004B7697 /* fundo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 				A54DD62F15A0F7EF004B7697 /* main.m in Sources */,
 				A54DD63315A0F7EF004B7697 /* DSFAppDelegate.m in Sources */,
 				A54DD63C15A0F7EF004B7697 /* DSFViewController.m in Sources */,
+				A54DD65E15A0F89C004B7697 /* DSFEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
